@@ -19,6 +19,11 @@
 
 
 
+# puts  "this will become a new line"
+# print "but not really\n"
+# print "OK"
+# # puts "one plus one equals"
+# print 12 + 1
 # print 'hello'
 # print 'moto'
 # puts 'hello'
@@ -79,3 +84,6 @@ puts my_circle.calculate_area
 second_circle = Circle.new(7)
 puts "Second circle area"
 puts second_circle.calculate_area
+
+require_relative "Lasagna.rb"
+add_two_numbers(5,6) 
