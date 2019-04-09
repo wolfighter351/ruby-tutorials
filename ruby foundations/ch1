@@ -1,0 +1,18 @@
+# 1.1
+# Examples
+# Ruby supports basic math operations for numbers +,-,*,/
+# You can mix floats and integers and will default the result to a float
+# when using a float that begins with zero it must be included
+# ex. 1 / 0.25 (okay), 1 / .25 (not okay)
+
+You can print something to the screen using the commands print, puts or p
+print does not include a newline character by default, so print 'hello' followed by
+print 'moto' would display 'hellomoto' on same line (notice there is no added space either).
+Also notice that the above words are surrounded by quotes or double quotes in ruby (almost all programming languages, actually)
+these are called strings. Puts command (actually lowercase puts when used in ruby) does the same thing as print but adds a newline
+at the end of a string if it is not already there.
+
+print 'hello'
+print 'moto'
+puts 'hello'
+puts 'goodbye'
